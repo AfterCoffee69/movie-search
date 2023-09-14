@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Поиск фильмов</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <form action="javascript:searchMovies()" autocomplete="off" class="search-bar">
+      <input type="text" id="searchInput" placeholder="Search..">
+      <button><img src="search.svg" alt=""></button> 
+    </form>
+
+  </div>
+
+  <div class="movies__container">
+    <div id="results" class="movie-grid"></div>
+  </div>
+
+  <script src="index.js"></script>
+</body>
+
+</html>
